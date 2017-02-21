@@ -5,6 +5,7 @@
 /* eslint-disable no-alert, no-console */
 
 const testArray = [1, 2, 3, 4];
+/*
 //testArray[1] = 100;
 //testArray[3] = 200;
 //console.log(testArray.length);
@@ -48,7 +49,31 @@ console.log(testArray.filter(function(value) {
     return value > 2;
 }));
 
-// map - 
+// map - make a copy of an array and do something with the new.
 console.log(testArray.map(function(value) {
     return value * 2;
 }));
+console.log(testArray);
+
+// reverse - change the order of the array. Does not make a copy of it!
+console.log(testArray.reverse());
+console.log(testArray);
+
+
+// concat - combain two arrays into a new array with the combained values of the two arrays.
+let newArray2 = ['join', 'me'];
+console.log(testArray.concat(newArray2));
+console.log(testArray);
+
+// join - make a copy of the array and adds a seperator and turn it to a string. 
+console.log(testArray.join(', '));
+console.log(testArray);
+
+
+// reduce - reduces the array into a number 
+console.log(testArray.reduce(function(total, value) {
+    //console.log('total: ' + total + ', Value: ' + value);
+    return total + value;
+}));
+console.log(testArray);
+*/
