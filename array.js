@@ -1,6 +1,8 @@
 // ======================
 // ARRAY
 // ======================
+// More info about arrays
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 /* eslint-disable no-alert, no-console */
 
